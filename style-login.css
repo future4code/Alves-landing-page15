@@ -82,12 +82,21 @@ button:active{
     align-items: center;
     height: 50%;
     margin-top: 10%;
-    background-color:#ff6404 ;
+    background-color:white ;
     border-radius: 50px;
     margin-left: 20%;
     margin-right: 20%;
     box-shadow: 20px 10px 100px 1px #00000069;
 
+}
+
+#f4bank{
+    color: #ff6404;
+}
+
+.texto-laranja{
+    color: #ff6404;
+    text-decoration: none;
 }
 
 /* Configurações mobile */
