@@ -78,3 +78,17 @@ input{
     border: none;
     font-size: 15px;
 }
+#vantagens p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family:Verdana;
+    text-align: justify;
+
+}
+.Quem-sou{
+    text-align: justify;
+}
+.taxas img{
+    width:380px;
+}
+

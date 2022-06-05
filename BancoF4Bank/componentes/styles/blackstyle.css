@@ -1,0 +1,101 @@
+body{
+    background-color: #525252;
+    color:black ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+header{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+}
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: #da5502;
+    transition: 0.3s all;
+}
+#login-btn{
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+#login-btn:hover{
+    background-color: #da5502;
+    color: white;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+#vip a{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    
+}
+
+#topo h2{
+    font-size: 40px;
+    line-height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#topo p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: Verdana;
+    text-align: justify;
+    
+
+}
+#metal {
+    line-height: 30px;
+    max-width: 500px;
+    font-family: Verdana;
+    text-align: justify;
+}
+article img{
+    width: 680px;
+    display:inline;
+    
+}
+#login-bt{
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#gardenia{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+h2{
+    font-size: 40px;
+    line-height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#virtual p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    color: white;
+
+}
+article img{
+    width: 680px; ;
+}
