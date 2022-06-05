@@ -36,6 +36,12 @@ body {
     margin-right: 15px;
 }
 
+#login-btn{
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
 a:hover {
     color: #ff6400;
 }
@@ -97,7 +103,7 @@ nav {
     outline: none;
     margin: 0;
     margin-bottom: 10px;
-    background-color: rgb(228, 228, 228);
+    background-color: #f3ded0;
 
 }
 

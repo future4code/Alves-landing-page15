@@ -2,15 +2,17 @@ body{
     background-color: #525252;
     color:black ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 15px;
+
 }
 header{
     display: flex;
     flex-direction: row; 
     justify-content: space-between;
     align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 #title{
     flex-direction: column;
@@ -22,6 +24,7 @@ li{
 }
 a{
     color: white;
+    text-decoration: none;
 }
 a:hover{
     color: #da5502;
@@ -40,11 +43,16 @@ main{
     display: flex;
     flex-direction: row;
     margin-top: 50px;
+    margin: 35px;
 }
 #vip a{
     color: rgb(255, 255, 255);
     text-align: justify;
     
+}
+
+#topo{
+    padding: 35px;
 }
 
 #topo h2{
@@ -82,6 +90,7 @@ article img{
     display: flex;
     flex-direction: row;
     margin-top: 50px;
+    margin-left: 35px;
 }
 h2{
     font-size: 40px;
@@ -98,4 +107,52 @@ h2{
 }
 article img{
     width: 680px; ;
+}
+
+/* Rodapé */
+
+.box-1-footer {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(7, 7, 7);
+    margin-top: 30px;
+    padding: 20px;
+
+}
+
+.box-2-footer {
+    grid-template-columns: 25% 25% 25% 25%;
+    display: grid;
+    color: white;
+    background-color: rgb(7, 7, 7);
+    padding: 20px;
+}
+
+.box-2-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Adaptação para mobile */
+
+@media (max-width: 600px) {
+    * {
+        max-width: 100vw;
+
+    }
+    .box-1-footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .box-2-footer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
 }
