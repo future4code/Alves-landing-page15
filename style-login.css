@@ -1,13 +1,9 @@
-* {
-    border: 0;
-    padding: 0;
-    font-family: Tahoma, Verdana, sans-serif
-}
-
 
 body {
+    border: 0;
     background-image: url(./img/background-login.png);
     background-repeat: no-repeat;
+    font-family: Tahoma, Verdana, sans-serif
 
 }
 
@@ -44,8 +40,11 @@ p {
 
 input {
     border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
     outline: 0;
     border-bottom: solid black 2px;
+
 
 }
 
@@ -57,7 +56,7 @@ button {
     background-color: #ffbd59;
     padding: 12px;
     border-radius: 10px;
-
+    border: 0;
 }
 
 button:hover {
