@@ -1,0 +1,191 @@
+
+body {
+    border: 0;
+    background-image: url(./img/background-login.png);
+    background-repeat: no-repeat;
+    font-family: Tahoma, Verdana, sans-serif
+
+}
+
+/* Página de Login */
+
+.section-login {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-items: center;
+    align-items: center;
+    margin: 10%;
+}
+
+#box-login {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 60px;
+    gap: 5px;
+    box-shadow: 20px 10px 100px 1px #00000069;
+}
+
+#box-texto {
+    align-self: flex-start;
+    font-size: 20px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: px;
+}
+
+input {
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    outline: 0;
+    border-bottom: solid black 2px;
+
+
+}
+
+input:hover {
+    border-bottom: solid #ff914d 2px;
+}
+
+button {
+    background-color: #ffbd59;
+    padding: 12px;
+    border-radius: 10px;
+    border: 0;
+}
+
+button:hover {
+    background-color: #ff914d;
+}
+
+button:active {
+    background-color: #ff6404;
+    box-shadow: inset 0 0 10px 10px #5c24015a;
+}
+
+#link-cadastro {
+    align-self: center;
+    color: #ff6404;
+    font-size: 19px;
+}
+
+/* Página Cadastro */
+
+.dados-usuario {
+    display: grid;
+    grid-template-columns: 100px 100px;
+
+}
+
+#box-cadastro {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 2px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 60px;
+    gap: 5px;
+    box-shadow: 20px 10px 100px 1px #00000069;
+}
+
+.box-resposta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    margin-top: 10%;
+    background-color: white;
+    border-radius: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 20px 10px 100px 1px #00000069;
+
+}
+
+.section-cadastro {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    justify-items: center;
+    align-items: center;
+    margin: 10%;
+}
+
+
+/* Página Resposta de Cadastro */
+
+#f4bank {
+    color: #ff6404;
+}
+
+/* Rodapé */
+
+
+.box-1-footer {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(7, 7, 7);
+    margin-top: 30px;
+    padding: 20px;
+
+}
+
+.box-2-footer {
+    grid-template-columns: 25% 25% 25% 25%;
+    display: grid;
+    color: white;
+    background-color: rgb(7, 7, 7);
+    padding: 20px;
+}
+
+.box-2-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Configurações mobile */
+
+@media (max-width: 600px) {
+    #box-login {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-login {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .box-resposta {
+        margin: 0;
+        margin-top: 50%;
+        padding: 10px;
+    }
+
+    .box-1-footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .box-2-footer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .section-cadastro {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
